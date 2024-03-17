@@ -1,0 +1,80 @@
+/* Global Styles */
+.full-container {
+    background-color: #ffe4b3;
+    display: flex;
+}
+
+h1, h2, h3 {
+    font-size: 28px;
+    color: #3b5998;
+    font-weight: bold;
+}
+
+/* Navbar Styles */
+.navbar {
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: #3b5998;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    min-height: 100vh;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 200px;
+    height: calc(100vh - 10px);
+}
+
+.navbar-nav.top {
+    flex-direction: column;
+    margin-bottom: auto;
+}
+
+.navbar-nav.bottom {
+    flex-direction: row;
+}
+
+.navbar-nav.bottom .nav-item {
+    margin-right: 10px;
+}
+
+/* Card Styles */
+.card {
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+    background-color: #cce6ff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #b3d9ff;
+}
+
+/* About Me Section Styles */
+.about-me-section {
+    background-color: #f0f2f5;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-me-content {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
